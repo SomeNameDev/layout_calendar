@@ -23,13 +23,13 @@ body {
     width: $day-size;
     height: $day-size;
     background-color: #eee;
-    border: 1px solid black;
+    border: $border-width solid black;
     transition-duration: 0.5s;
 
     &::before {
       content: '1';
       font-family: Arial, sans-serif;
-      font-size: 30;
+      font-size: 30px;
       color: black;
     }
     &:hover {
